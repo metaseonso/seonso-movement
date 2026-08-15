@@ -33,7 +33,7 @@ if(rings){
 const OBJECTS=[
  {n:'Bamboo',k:'대',f:'bamboo-full',s:'the movement',t:'It grows faster than any wood and bends through weather that snaps harder timber. Bamboo is given where the movement has to move quickly, and it is jointed rather than solid, so it is never carried alone.'},
  {n:'Metal',k:'금',f:'metal-full',s:'stewardship',t:'Drawn out of ore under heat and cooled into a shape that holds. Metal marks custodianship. It is the gate a member passes when stewardship of something is handed to them, and it keeps the charge it was given.'},
- {n:'Heirloom',k:'가보',f:'heirloom-full',s:'inheritance',t:'An heirloom arrives with the bamboo and the metal already inside it. It is what a member is given when a torch is passed, and it is not finished until it can be handed on again.'},
+ {n:'Heirloom',k:'가보',f:'heirloom-full',s:'inheritance',t:'It is what a member is given when a torch is passed, to steward what existed before them and what will exist after the torch is passed again.'},
  {n:'Taksu',k:'탁수',f:'taksu-full',s:'the landmark',t:'Stone, and fixed. Taksu marks the places the movement has crossed and blessed. It does not travel with a member; it stays where presence was given, so the ground keeps the record.'}
 ];
 const plates=document.getElementById('plates');

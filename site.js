@@ -5,8 +5,8 @@ const clamp=(v,a=0,b=1)=>Math.min(b,Math.max(a,v));
 /* ---------- zones ---------- */
 const ZONES=[
  {n:'Order',by:'the sanctuary · by initiation',t:'The innermost distance, and the smallest. Initiated, not enrolled. It is walked toward for years and then, on an ordinary day, entered.'},
- {n:'Club',by:'the safehouses · by admission',t:'Admitted rather than enrolled. Benefactors. Each is known by the others, and admission follows work already done.'},
  {n:'Society',by:'the third places · by joining',t:'Those who joined on purpose. Benefactors. They meet on a fixed rhythm and carry the practice into their own cities. The room stays small enough that it can still hear one person speak.'},
+ {n:'Club',by:'the safehouses · by admission',t:'Admitted rather than enrolled. Benefactors. Each is known by the others, and admission follows work already done.'},
  {n:'Community',by:'the broader ecology · by association',t:'The wider ecology of the collective. Patrons and guests. Nothing is asked and nothing is owed, and most who follow the movement never come nearer than this.'}
 ];
 const rings=document.getElementById('rings'), zoneCopy=document.getElementById('zoneCopy');

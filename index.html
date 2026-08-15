@@ -1,0 +1,133 @@
+<!-- @dsCard group="Movement" viewport="1280x780" name="선소 — The Movement" subtitle="Immersive sumi-e scroll: seven turns of a spiral, walked inward" -->
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>선소 · SEONSO</title>
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="site.css">
+</head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<filter id="inkbleed" x="-20%" y="-20%" width="140%" height="140%"><feTurbulence type="fractalNoise" baseFrequency="0.022 0.03" numOctaves="4" seed="7" result="n"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="n" scale="7" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap></filter>
+<filter id="wash" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="5" seed="3" result="n"></feTurbulence><feColorMatrix in="n" type="matrix" values="0 0 0 0 .13 0 0 0 0 .10 0 0 0 0 .09 -0.9 -0.5 0 0 0.95"></feColorMatrix></filter>
+<filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" stitchTiles="stitch"></feTurbulence><feColorMatrix type="saturate" values="0"></feColorMatrix><feComponentTransfer><feFuncA type="linear" slope="0.16"></feFuncA></feComponentTransfer></filter>
+</defs></svg>
+
+<svg class="grain" aria-hidden="true"><rect width="100%" height="100%" filter="url(#paper)"></rect></svg>
+<svg class="watermark" viewBox="0 0 900 900" aria-hidden="true"><path id="wmPath" d=""></path></svg>
+<div class="vignette" aria-hidden="true"></div>
+<canvas class="petals" aria-hidden="true"></canvas>
+
+<svg class="progress" viewBox="0 0 48 48" aria-hidden="true"><path d=""></path></svg>
+
+<div id="smooth"><div id="content">
+
+<section class="hero wrap rev">
+<div>
+<div class="enso"><img src="../../assets/ink-enso.png" alt="">
+<div class="brand"><div class="han">선소</div><div class="lat">SEONSO</div></div></div>
+<img class="seal" src="../../assets/seal-red.png" alt="Vermilion seal" style="margin:26px auto 0">
+<p class="credo fade d1">A record kept while the thing is still forming. Those who enter share one reality. What they become inside it, they make.</p>
+<div class="cue">the spiral, opening outward<i></i></div>
+</div>
+</section>
+
+<section class="wrap rev" id="t1">
+<img class="cranes lift" src="../../assets/ink-cranes-flight.png" alt="" aria-hidden="true">
+<span class="kr">표류</span>
+<h2 class="lines"><span class="line"><span>The Drift</span></span></h2>
+<p class="lead fade">Most people know what they want, then stop feeling it.</p>
+<p class="fade d1">It never goes all at once. It drifts. The days close over it the way water closes over a dropped stone, and after a while the numbness gets mistaken for peace.</p>
+<p class="fade d2">Effort rarely reverses it. Two things do. Perspective, which makes a situation legible from outside of it. And structure, a form steady enough to keep coming back to.</p>
+</section>
+
+<section class="wrap rev" id="t2">
+<span class="kr">거리</span>
+<h2 class="lines"><span class="line"><span>The Proxemics</span></span></h2>
+<div class="zones">
+  <div class="rings" id="rings">
+    <img class="ringline on" data-zone="3" src="../../assets/ring-4.png" alt="" style="width:100%;height:100%">
+    <img class="ringline" data-zone="2" src="../../assets/ring-3.png" alt="" style="width:74%;height:74%">
+    <img class="ringline" data-zone="1" src="../../assets/ring-2.png" alt="" style="width:48%;height:48%">
+    <img class="ringline" data-zone="0" src="../../assets/ring-1.png" alt="" style="width:24%;height:24%">
+    <button data-zone="3" aria-pressed="true" style="width:100%;height:100%"></button>
+    <button data-zone="2" aria-pressed="false" style="width:74%;height:74%"></button>
+    <button data-zone="1" aria-pressed="false" style="width:48%;height:48%"></button>
+    <button data-zone="0" aria-pressed="false" style="width:24%;height:24%"></button>
+  </div>
+  <div class="zone-copy-wrap">
+    <div class="zone-copy fade" id="zoneCopy"></div>
+  </div>
+</div>
+<div class="proxemic-flank" id="proxemicFlank">
+  <img class="on" data-zone="3" src="../../assets/ink-backdrop.png" alt="">
+  <img data-zone="2" src="../../assets/ink-cranes-flocking.png" alt="">
+  <img data-zone="1" src="../../assets/ink-cranes-standing.png" alt="">
+  <img data-zone="0" src="../../assets/ink-crane-single.png" alt="">
+</div>
+</section>
+
+<section class="wrap rev" id="t3">
+<img class="cranes passage" src="../../assets/ink-cranes-skein-birds.png" alt="" aria-hidden="true">
+<span class="kr">알</span>
+<h2 class="lines"><span class="line"><span>The Egg</span></span></h2>
+<p class="lead fade">Every member is given an egg. What comes out of it is a familiar. Each member has their very own.</p>
+<div class="egg-row fade d1">
+  <div class="plate"><div class="egg"><img src="../../assets/ink-egg.png" alt="A sealed ink-drawn egg"></div><div class="cap">given</div></div>
+  <div class="arrowline"></div>
+  <div class="plate"><div class="fox-grid">
+    <img src="../../assets/familiar-standing.png" alt="">
+    <img src="../../assets/familiar-facing.png" alt="">
+    <img src="../../assets/familiar-delighted.png" alt="">
+    <img src="../../assets/familiar-resting.png" alt="">
+    <img src="../../assets/familiar-turned.png" alt="">
+    <img src="../../assets/familiar-playing.png" alt="">
+  </div><div class="cap">the familiar</div></div>
+</div>
+<div class="laws fade d3">
+  <p><b>First</b>It asks first.</p>
+  <p><b>Second</b>It grows with them.</p>
+  <p><b>Third</b>It helps them in their journey of mindful creation.</p>
+</div>
+</section>
+
+<section class="wrap rev" id="t4">
+<span class="kr">신물</span>
+<h2 class="lines"><span class="line"><span>The Objects</span></span></h2>
+<p class="lead fade">Relics, artifacts and talismans. Each is made of a material whose nature the member is carrying, and each holds a work that wakes when brought close.</p>
+<div class="plates" id="plates"></div>
+</section>
+
+<section class="wrap rev" id="t5">
+<div class="lantern">
+<span class="kr">환대</span>
+<h2 class="lines"><span class="line"><span>The Reception</span></span></h2>
+<p class="lead fade" style="color:var(--sumi-paper)">The movement never pays at the door. It never seeks a place to exist.</p>
+<p class="fade d1">A place is prepared for it. Reception is always present for a movement that brings gifts wherever it goes.</p>
+<p class="fade d1">The movement arrives into rooms whose livelihood it knows already.</p>
+<p class="fade d2">Whatever flows in abundance is given freely. That is our Grace.</p>
+<div class="glow" aria-hidden="true"></div>
+</div>
+</section>
+
+<section class="wrap rev center turn washed" id="t6">
+<img class="cranes arrive" src="../../assets/ink-cranes-skein-birds.png" alt="" aria-hidden="true">
+<span class="kr">중심</span>
+<h2 class="lines"><span class="line"><span>The Center</span></span></h2>
+<p class="lead fade">This is where it starts. The spiral opens from the center outward, and it does not end while the movement does not.</p>
+<p class="fade d1">Nothing grows past what can be held. The movement serves when there is capacity, and dignity here means one thing only: to have the peaceful opportunity to live the honorable life one actually wanted.</p>
+<p class="fade d2">The spirit of the movement is grace. It is not competing. It is not fighting. It is gracefully finding harmony in existence embrace.</p>
+<p class="fade d3">For the rest, we're smart people. We'll figure it out.</p>
+<ul class="marks fade d4"><li>attuned</li><li>sponsored</li><li class="key">granted, never sold</li><li>witnessed</li></ul>
+<img class="seal" src="../../assets/seal-red.png" alt="Closing seal" style="margin:52px auto 0;width:52px;height:52px">
+</section>
+
+<footer class="wrap rev">
+<div class="equation fade">
+  <span><i>선</i><small>mindful awareness</small></span><span class="op">+</span>
+  <span><i>소</i><small>spiral / creation</small></span><span class="op">=</span>
+  <span><i>선소</i><small>the spiral of mindful creation</small></span>
+</div>
+<p class="close fade d1">Stay curious. Stay creative. Stay you.</p>
+</footer>
+
+</div></div>
+<script src="site.js"></script>
+</body></html>

@@ -147,6 +147,9 @@ section{position:relative;padding:clamp(90px,13vh,170px) 0}
 .marks li{font-family:'Nanum Myeongjo',serif;font-size:19px;padding:0 26px;border-right:1px solid rgba(34,26,22,.18)}
 .marks li:last-child{border:0}
 .marks li.key{color:var(--sumi-seal)}
+.never-sold{display:flex;align-items:center;justify-content:center;gap:10px;margin:18px 0 0}
+.never-sold img{width:24px;height:24px;display:block}
+.never-sold span{font-family:'Nanum Myeongjo',serif;font-size:19px;color:var(--sumi-seal)}
 .center p{margin-left:auto;margin-right:auto}
 
 /* ---- footer ---- */

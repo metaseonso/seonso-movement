@@ -52,8 +52,6 @@ function spiralPath(cx,cy,turns,rMax,steps){
   }
   return d;
 }
-const wmPath=document.getElementById('wmPath');
-if(wmPath) wmPath.setAttribute('d',spiralPath(450,450,5.2,430,1400));
 const prog=document.querySelector('.progress path');
 if(prog){ prog.setAttribute('d',spiralPath(24,24,2.6,20,320)); const L=prog.getTotalLength(); prog.style.setProperty('--len',L); }
 
@@ -80,14 +78,12 @@ function revealAll(){
 setTimeout(()=>{ if(!ioFired) revealAll(); },3500);
 
 /* ---------- scroll-linked ---------- */
-const wm=document.querySelector('.watermark');
 let target=0,cur=0;
 function frame(){
   cur+=(target-cur)*0.12;
   const y=RM?target:cur;
   const doc=document.documentElement.scrollHeight-innerHeight;
   const p=clamp(y/Math.max(doc,1));
-  if(wm) wm.style.transform=`translate(-50%,-50%) rotate(${y*0.02}deg) scale(${1+p*0.22})`;
   if(prog) prog.style.setProperty('--p',p.toFixed(4));
   requestAnimationFrame(frame);
 }

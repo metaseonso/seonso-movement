@@ -1,0 +1,24 @@
+:root{
+/* --- Ink & paper (sampled from "Seonso Card" palette grid) --- */
+--ink-900:#211f20;--ink-800:#4d4546;--ink-700:#6a5649;--ink-600:#6f5547;
+--stone-500:#998880;--stone-400:#b09279;--mist-300:#cbbcbd;
+--clay-400:#a68873;--amber-400:#d1a67c;--sand-300:#dfc2ac;--cream-200:#eed8c8;
+--bronze-500:#9b7756;--bronze-600:#866240;
+--paper-100:#f8efe7;--paper-200:#f4ece2;--paper-300:#eae2db;
+
+/* --- Sakura (sampled from "Seonso Card v2") --- */
+--sakura-500:#e17c80;--sakura-400:#ecb3aa;--sakura-300:#f5d0be;
+--blush-200:#dfb7a7;--blush-100:#fbece8;
+--rose-brown:#996d60;--espresso:#2a221f;--soot:#1a1a19;
+--seal-red:#b04a3e;
+
+/* --- Semantic --- */
+--text-strong:var(--ink-900);--text-body:var(--ink-800);--text-muted:var(--stone-500);
+--text-inverse:var(--paper-100);--text-accent:var(--bronze-600);
+--surface-page:var(--paper-100);--surface-card:#fdf8f3;--surface-sunk:var(--paper-300);
+--surface-ink:var(--ink-900);--surface-blush:var(--blush-100);
+--border-hairline:rgba(33,31,32,.12);--border-strong:rgba(33,31,32,.28);
+--accent:var(--bronze-500);--accent-hover:var(--bronze-600);
+--accent-soft:var(--sakura-500);--focus-ring:rgba(155,119,86,.45);
+--overlay-scrim:rgba(26,26,25,.55);
+}

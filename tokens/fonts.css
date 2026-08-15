@@ -1,0 +1,4 @@
+/* Seonso type. NOTE: no font binaries were supplied with the source cards.
+   These are the nearest Google Fonts matches to the hand-lettered / brush type on
+   the character cards. Replace with real binaries + @font-face if they exist. */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Gowun+Dodum&family=Caveat:wght@400;600&display=swap');

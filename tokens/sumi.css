@@ -1,0 +1,12 @@
+/* Sumi-e / suibokuga key — monochrome ink wash on cold-press paper.
+   Used by the 선소 movement site. Vermilion is the only colour. */
+:root{
+--sumi-paper:#F6EAE7;
+--sumi-paper-deep:#EFDCD6;
+--sumi-ink:#221A16;
+--sumi-ink-soft:#5A473C;
+--sumi-blush:#E7A6B2;
+--sumi-blush-soft:#F2CBD2;
+--sumi-seal:#B23A34;
+--sumi-gold:#A98443;
+}

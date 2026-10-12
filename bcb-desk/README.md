@@ -13,6 +13,11 @@ Table `messages` (created on first request, `src/store.ts`): one row per message
 
 ## Deploy (once)
 
+With `CLOUDFLARE_ACCOUNT_ID` plus `CLOUDFLARE_API_TOKEN` (or `CLOUDFLARE_API_KEY` + `CLOUDFLARE_EMAIL`) in the environment, `scripts/setup.sh` does steps 1–4 below. Re-runnable.
+
+By hand:
+
+
 1. Cloudflare dashboard → **Storage & Databases → D1 → Create**, name `bcb-desk`. Put its ID in `wrangler.jsonc` (`database_id`).
 2. **Workers & Pages → Create → Import a repository** → this repo, root directory `bcb-desk`. Deploy.
 3. The Worker → **Settings → Variables and Secrets**, add as secrets:

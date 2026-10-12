@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bcb-desk",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-01",
+  "observability": { "enabled": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "bcb-desk",
+      // Fill in with the ID of the D1 database named "bcb-desk"
+      // (Cloudflare dashboard → Storage & Databases → D1).
+      "database_id": "REPLACE_WITH_D1_DATABASE_ID"
+    }
+  ]
+  // Secrets (dashboard → this Worker → Settings → Variables and Secrets):
+  //   META_VERIFY_TOKEN      any long random string; the same value goes in Meta's webhook settings
+  //   META_APP_SECRET        Meta app → App settings → Basic → App secret
+  //   INSTAGRAM_APP_SECRET   Meta app → Instagram → API setup with Instagram login → Instagram app secret (optional)
+  //   PRIVACY_CONTACT_EMAIL  address shown on /privacy for data requests
+}
